@@ -19,6 +19,12 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
+    <!-- Fonts -->
+    <link href="https://fonts.cdnfonts.com/css/perpetua-titling-mt" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/ecf2edb722bb790456a7199f4b4cfef8?family=Sitka+Heading" rel="stylesheet" type="text/css"/> 
+                
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <title>New Moon Dessert Bar</title>
   </head>
