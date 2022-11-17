@@ -19,12 +19,7 @@
       integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
       crossorigin="anonymous"
     />
-    <!-- Fonts -->
-    <link href="https://fonts.cdnfonts.com/css/perpetua-titling-mt" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
-    <link href="https://fonts.cdnfonts.com/css/roboto" rel="stylesheet">
-    <link href="//db.onlinewebfonts.com/c/ecf2edb722bb790456a7199f4b4cfef8?family=Sitka+Heading" rel="stylesheet" type="text/css"/> 
-                
+  
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <title>New Moon Dessert Bar</title>
   </head>
@@ -40,49 +35,18 @@
     <?php require_once "php/recaptchalib.php" ?>
     <div class="container-fluid">
       <div class="video-container-bg">
-        <div class="row navbar-row">
-          <div class="col"></div>
-          <div class="col-sm-10">
-            <div class="container navbar-container">
-              <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">&#127854;HOME</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <div class="dropdownicon">&#9776;</div>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <!-- <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">&#127854;Home</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#index-sectionMenu">MENU</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#index-sectionSource">SOURCE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#index-sectionDocumentation">DOCUMENTATION</a>
-                        </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-            </div>
-          </div>
-          <div class="col"></div>
-        </div>
+      <?php include_once 'nav.php'?>
         <div class="sectionMain">
           <h1>New Moon Dessert Bar</h1>
           <br>
-          <h2>WE OFFER EASY PACKAGES FOR THOSE SHORT ON TIME
+          <h4>WE OFFER EASY PACKAGES FOR THOSE SHORT ON TIME
             <br>
           AS WELL AS FULL CUSTOM PLANNING FOR THOSE SEEKING SOMETHING UNIQUE. <br>EITHER WAY, SPOT DESSERT CATERING IS  ALWAYS DELICIOUS,
             <br>
           BEAUTIFUL AND SPECIAL.
-          </h2>
+          </h4>
           <br>
-          <h3>TAKE-OUT & DELIVERY ARE AVAILABLE!</h3>
+          <h4 class="yellow">TAKE-OUT & DELIVERY ARE AVAILABLE!</h4>
           <button class="btn btn-lg my-btn" type="button" id="btn-home-login" data-bs-toggle="modal" data-bs-target="#logInModal"> LOGIN</button>
         </div>
         <video aria-hidden="true" autoplay="" loop="" muted="" playsinline="" class="video-bg"  >

@@ -34,6 +34,9 @@ video {
 h1 {
   font-family: "Perpetua Titling MT", sans-serif;
   font-size: 48pt;
+  color: #FFFFFF;
+  font-weight: 100;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.16);
 }
 
 h2 {
@@ -48,7 +51,9 @@ h3 {
 
 h4 {
   font-family: "Perpetua Titling MT", sans-serif;
+  font-weight: lighter;
   font-size: 20pt;
+  color: #FFFFFF;
 }
 
 p {
@@ -374,24 +379,20 @@ p {
 }
 
 .navbar .dropdownicon {
-  color: DarkOliveGreen;
+  color: #A5950C;
 }
 
 .navbar a {
-  font-size: 1.7rem;
-  border: 1px;
-  color: DarkOliveGreen;
-  text-align: left;
-  text-shadow: 1px 1.2px 2px GhostWhite;
-  font-weight: bold;
+  color: #A5950C;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar a:hover {
-  color: white;
+  color: #FFE500;
 }
 
 .navbar a:active {
-  color: Beige;
+  color: #FFE500;
 }
 
 .navbar-container {
@@ -412,19 +413,8 @@ p {
   position: relative;
 }
 
-.sectionMain h1 {
-  font-family: "Ink Free";
-  font-size: 4rem;
-}
-
-.sectionMain h2 {
-  font-family: "Slabo";
-  font-size: 1rem;
-}
-
-.sectionMain h3 {
-  color: OliveDrab;
-  font-size: 1.2rem;
+.sectionMain .yellow {
+  color: #FFE500;
 }
 
 .sectionMenu .row {
@@ -445,13 +435,13 @@ p {
 .sectionMenu h1 {
   margin-top: 5%;
   text-align: center;
-  color: DarkOliveGreen;
+  color: #486143;
   text-shadow: 1px 1.2px 2px grey;
 }
 
 .sectionMenu h3 {
   text-align: center;
-  color: OliveDrab;
+  color: #486143;
   font-family: "URW Chancery L", cursive;
 }
 
@@ -737,7 +727,7 @@ footer.shopping-footer ul.language {
 }
 
 a.page-link {
-  color: DarkOliveGreen;
+  color: #A5950C;
 }
 
 a.page-link:hover {
